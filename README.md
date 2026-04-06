@@ -29,9 +29,11 @@ phpinfo.php	Tests PHP configuration via browse
 
 
 
-##How to Run
+How to Run
 Run the following commands in order:
 
 sudo puppet apply testing_puppet.pp
+
 sudo puppet apply server_users_groups.pp
+
 sudo puppet apply lamp_stack_server.pp
